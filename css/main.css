@@ -1,3 +1,19 @@
 .dice circle {
     fill: #f57c00;
+    transition: all .5s;
+    transform-origin: 25px 25px;
+}
+.dice:hover circle {
+    transform: scale(1.1);
+}
+.dice5 g {
+    transition: all .3s;
+    transform-origin: 100px 100px;
+}
+.dice5:hover g {
+    transform: scale(1.2);
+}
+.patterntext {
+    font-size: 6rem;
+    font-weight: bold;
 }
