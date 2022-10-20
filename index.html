@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Week 7 - SVG</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <div class="container">
+        <h1>SVG - Scalable Vector Graphic</h1>
+        <!-- we can use the SVG by simply adding it as an image -->
+        <img src="images/myfirst.svg" alt="graphic of a square with a circle">
+
+        <!-- We can use the SVG by embedding the code directly in HTML -->
+        <svg class="dice" width="200" height="300" viewbox="0 0 200 300">
+            <rect x="0" y="0" width="200" height="200" rx="8" ry="8" fill="#4DD0E1"/>
+            <circle cx="50" cy="50" r="25" fill="#D50000" />
+        </svg>
+    </div>
+</body>
+</html>
